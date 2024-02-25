@@ -26,8 +26,36 @@ const myfunction=function(){
     console.log("Hello World")
 }
 
-console.log(typeof myfunction)
-console.log(typeof myObj)
+// console.log(typeof myfunction)
+// console.log(typeof myObj)
+
+// *********************************************************
+
+// Stack(Primitive ) ,Heap(Non-premitive)
+
+let myName="Lalbabu"
+
+let anotherName=myName
+//console.log(anotherName)
+anotherName="Kumar"
+// console.log(myName)
+// console.log(anotherName)
+
+let userOne={
+    email:"compute@gmail.com",
+    Name:"Vikash"
+}
+
+let userTwo=userOne
+// console.log(userTwo)
+
+userTwo.email="laptop@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
 
 
 
